@@ -4,7 +4,7 @@ require('dotenv').config()
 
 
 const connectToMongo = ()=>{
-    mongoose.connect("mongodb+srv://purvisharma09042002:purpra123098@cluster0.ssz7n1h.mongodb.net/")
+    mongoose.connect("mongodb://127.0.0.1:27017")
     .then(success => console.log('Purvi Connect To Mongo Successfully'))
 }
 
